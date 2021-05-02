@@ -34,9 +34,9 @@ import {
           <TextField
             required
             fullWidth
-            id="first-name"
+            id="last-name"
             name="lastName"
-            label="First Name"
+            label="Last Name"
             value={user.lastName}
             onChange={handleChange}
           />
