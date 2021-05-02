@@ -66,12 +66,12 @@ const App = () => {
 
   const handleCheckout = async (checkoutId, orderData) => {
     try {
-      // const incomingOrder = await commerce.checkout.capture(
-      //   checkoutId,
-      //   orderData
-      // );
+      const incomingOrder = await commerce.checkout.capture(
+        checkoutId,
+        orderData
+      );
 
-      setOrderInfo(orderData);
+      setOrderInfo(incomingOrder);
 
       refreshBasket();
     } catch (error) {
