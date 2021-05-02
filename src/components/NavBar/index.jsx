@@ -27,7 +27,7 @@ const NavBar = ({ basketItems, totalCost }) => {
                     >
 
                     <img
-                    src="https://github.com/AlvinValensia/Ecommerce-react-app/blob/main/public/Kitchen.png?raw=true"
+                    src="https://github.com/AlvinValensia/Ecommerce-react-app/blob/main/public/Winatamart-logo.png?raw=true"
                     alt="Winatamart logo"
                     height= "25px"
                     className="logo"

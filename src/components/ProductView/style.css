@@ -1,13 +1,14 @@
 /** @format */
 
 .MuiContainer-root.product-view {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   margin: 150px 0 100px 0;
 }
 
 .product-view .image-wrapper img {
+  margin-top: 60px;
   width: 60%;
 }
 
@@ -60,6 +61,9 @@
 @media (min-width: 960px) {
   .MuiContainer-root.product-view {
     height: 80vh;
-    margin: 40px 0 0;
+    margin: 40px 0 0 0;
   }
+}
+
+@media (min-width: 960px) {
 }
