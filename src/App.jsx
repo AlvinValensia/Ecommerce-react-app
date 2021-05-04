@@ -72,6 +72,7 @@ const App = () => {
       );
 
       setOrderInfo(incomingOrder);
+      console.log(setOrderInfo);
 
       refreshBasket();
     } catch (error) {
@@ -81,6 +82,7 @@ const App = () => {
       );
     }
   };
+  
 
   useEffect(() => {
     fetchProducts();
